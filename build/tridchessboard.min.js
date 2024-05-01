@@ -5764,7 +5764,7 @@ THREE.GLTFLoader = ( function () {
 // tridchessboard.js
 // https://github.com/nickibyte/tridchessboard.js
 //
-// Copyright (c) 2020 nickibyte <https://github.com/nickibyte>
+// Copyright (c) 2024 nickibyte <https://github.com/nickibyte>
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
