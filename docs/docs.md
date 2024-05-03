@@ -2,7 +2,7 @@
 
 tridchessboard.js is heavily inspired by [chessboard.js] and its API is kept almost identical.
 This enables you use most of the numerous examples that exist for [chessboard.js].
-So if you can figure out how to do something using this documentation, chances are you can find a working example for [chessboard.js] and apply it to your use case.
+So if you can't figure out how to do something using this documentation, chances are you can find a working example for [chessboard.js] and apply it to your use case.
 
 
 ## Differences to chessboard.js
@@ -21,7 +21,7 @@ Here is a list of all the changes/differences:
 	* Missing `moveSpeed` (no move animation, pieces/towers move instantly)
 	* Missing `snapbackSpeed` (no snapback animation, pieces/towers snapback instantly)
 	* Missing `snapSpeed` (no snap animation, pieces/towers snap instantly)
-	* Missing `trashSpeed` (no trash animation, pieces/towers disapear instantly)
+	* Missing `trashSpeed` (no trash animation, pieces/towers disappear instantly)
 	* Added `boardTheme`
 	* Added `whiteOrientation` and `blackOrientation`
 	* Added `stand`
@@ -104,7 +104,7 @@ The square names used by tridchessboard.js are algebraic (like in regular chess)
 However the files range from a-f and the rank from 1-10 (instead of a-h and 1-8).
 Additionally a suffix (underscore + number) is added to indicate the level 1-6.
 
-The twelve possible tower positions are labled T1 through T12.
+The twelve possible tower positions are labeled T1 through T12.
 Starting with the front left tower on the bottom board (when looking at the board from the front) and then going **left to right** and **front to back** on each of the 3 main boards (**bottom to top**).
 
 See an example of using a Position Object [here].
@@ -146,7 +146,7 @@ You can use Tridchessboard's `fenToObj` method to convert a FEN String to a [Pos
 
 ## Orientation Object
 
-The Orientation Object is a JavaScript object which resemles a 3D-Vector and determines the camera position.
+The Orientation Object is a JavaScript object which resembles a 3D-Vector and determines the camera position.
 
 The Object must have the properties x, y and z.
 The values of these properties must be a JavaScript Number.
